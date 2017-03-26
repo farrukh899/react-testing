@@ -1,0 +1,8 @@
+@import '../../styles/colors';
+
+.header-component {
+    min-height: 35px;
+    background-color: $HEADER;
+    position: relative;
+    width: 100%;
+}

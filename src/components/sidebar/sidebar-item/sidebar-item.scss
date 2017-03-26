@@ -1,0 +1,15 @@
+.sidebar-item {
+    padding: 8px 0px;
+    color:white;
+    .material-icons {
+        font-size: 16px;
+    }
+    .item-text {
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}

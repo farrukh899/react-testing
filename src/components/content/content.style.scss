@@ -1,0 +1,11 @@
+@import '../../styles/colors';
+
+.content-area {
+    background-color: $CONTENT-BACKGROUND;
+    width: 100%;
+    padding: 8px;
+
+    .article-content {
+        margin-top: 16px;
+    }
+}

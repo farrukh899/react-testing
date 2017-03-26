@@ -1,0 +1,55 @@
+@import './colors.scss';
+html {
+    height: 100%;
+}
+body {
+    background-color: $BACKGROUND-COLOR;
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+#root {
+    min-height: 100%;
+    display: flex;
+    flex: 1;
+}
+//  Flexbox styling
+.flex-100 { display: flex; flex: 0 0 100% };
+.flex-95 { display: flex; flex: 0 0 95% };
+.flex-90 { display: flex; flex: 0 0 90% };
+.flex-75 { display:flex; flex: 0 0 75% };
+.flex-60 { display:flex; flex: 0 0 60% };
+.flex-50 { display:flex; flex: 0 0 50% };
+.flex-30 { display:flex; flex: 0 0 30% };
+.flex-25 { display:flex; flex: 0 0 25% };
+.flex-20 { display:flex; flex: 0 0 20% };
+.flex-15 { display:flex; flex: 0 0 15% };
+.flex-10 { display:flex; flex: 0 0 10% };
+.flex-5 { display:flex; flex: 0 0 5% };
+
+
+// Alignment styling
+.layout-align-start { align-items: flex-start; };
+.layout-align-center { align-items: center; };
+.layout-align-end { align-items: flex-end; };
+.layout-align-space-between { align-items: space-between; };
+// Justify content
+.layout-start { justify-content: flex-start; };
+.layout-center { justify-content: center; };
+.layout-end { justify-content: flex-end; };
+// Types of layout
+.layout-column { flex-direction: column; };
+.layout-row { flex-direction: row; };
+// Flex wrap
+.layout-wrap { flex-wrap: wrap; };
+// row center center
+.row-start-center {
+    align-items: center;
+    justify-content: flex-start;
+}
+// column center start
+.column-center-start {
+    align-items: center;
+    justify-content: flex-start;
+}

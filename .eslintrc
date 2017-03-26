@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOption": {
+      "sourceType": "module",
+      "ecmaVersion": 6,
+          "ecmaFeatures": {
+              "experimentalObjectRestSpread": true
+          }
+  },
+  "plugins": ["react"],
+  "extends": "react",
+  "sourceType": "module",
+  "rules": {
+      "comma-dangle": "off",
+      "global-require": "off",
+      "no-console": "off",
+      "no-else-return": "off",
+      "no-undef": "off",
+      "consistent-return": "off",
+      "no-use-before-define": ["error", { "functions": false, "classes": true }],
+      "quote-props": ["error", "consistent"],
+      "indent": ["error", 4, { "SwitchCase": 1 }],
+      "no-param-reassign": [0, { "props": false }],
+      "linebreak-style": "off",
+      "class-methods-use-this": 0
+  }
+}

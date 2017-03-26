@@ -1,0 +1,37 @@
+@import '../../../styles/colors';
+.sidebar-extended-item {
+    min-height: 90px;
+    width: 100%;
+    cursor: pointer;
+    
+    .selected-pip {
+      height: 50px;
+      .item-selected {
+          width: 2px;
+          height: 100%;
+          background-color: $WARN;
+          height: 50px;
+      }
+    }
+
+    .article-title {
+        color: white;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .article-info-container {
+      margin-top: 8px;
+      .article-info {
+          color: $TEXT-HIGHLIGHT;
+          font-size: 12px;
+          text-transform: uppercase;
+      }
+    }
+}
+.even-item {
+    background-color: $SIDEBAR-ALTERNATE;
+}
+.odd-item {
+    background-color: $SIDEBAR-ALTERNATE-ODD;
+}
